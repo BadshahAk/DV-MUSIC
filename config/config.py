@@ -75,14 +75,14 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "11679112664").split())
+    map(int, getenv("OWNER_ID", "7291963092").split())
 )  # Input type must be interger
 
 
 # make your bots privacy from telegra.ph and put your url here
 
 PRIVACY_LINK = getenv(
-    "PRIVACY_LINK", "https://telegra.ph/Privacy-Policy-for-DV-MUSIC-08-30"
+    "PRIVACY_LINK", "https://envs.sh/_Lx.png"
 )
 
 
@@ -117,14 +117,14 @@ AUTO_GCAST_MSG = getenv("AUTO_GCAST_MSG", "")
 
 # Only  Links formats are  accepted for this Var value.ᴘʀᴏᴍᴏᴛɪᴏɴ ᴘʀᴏᴏғ @Dns_Official_Channel @DNS_NETWORK ᴀʙᴏᴜᴛ @S12kgamer_YT
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", "https://t.me/Dns_Official_Channel"
+    "SUPPORT_CHANNEL", "https://t.me/doll4321"
 )  # Example:- https://t.me/Dns_Official_Channel
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/DNS_NETWORK"
+    "SUPPORT_GROUP", "https://t.me/+Ah01120zwsY0NDk1"
 )  # Example:- https://t.me/DNS_NETWORK
 
 SUPPORT_CHAT = getenv(
-    "SUPPORT_GROUP", "https://t.me/DNS_NETWORK"
+    "SUPPORT_GROUP", "https://t.me/+Ah01120zwsY0NDk1"
 )  # Example:- https://t.me/DNS_NETWORK
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", False)
